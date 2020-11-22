@@ -1,0 +1,71 @@
+.metaWrap {
+    text-align: center;
+    padding: 40px;
+}
+.metaWrap p span {
+    color: green;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    border: 1px solid #037dd6;
+    color: #037dd6;
+    background-color: #fff;
+    border-radius: 100px;
+    will-change: box-shadow;
+    transition: box-shadow cubic-bezier(0.6, -0.28, 0.735, 0.045) 200ms;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 140%;
+    font-weight: 500;
+    line-height: 1.25rem;
+    padding: 0.75rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    min-width: 200px;
+    transition: all .3s;
+}
+button:hover {
+    border: 1px solid #037dd6;
+    color: #fff;
+    background-color: #037dd6;
+}
+.hidden {
+    display: none;
+}
+
+#transactionHash {
+    color: green;
+    margin: 20px;
+}
+
+input[type="text"],
+input[type="number"] {
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    margin: 0 10px;
+}
